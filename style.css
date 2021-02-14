@@ -1,0 +1,129 @@
+body{
+    font-size:unset;
+    color: #495057;
+}
+.container-fluid{
+    position: relative;
+    overflow: hidden;
+} 
+/* 6 */
+.title{
+margin:1% ;
+}
+
+.navbar-brand{
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-nav > li{
+    display: none;
+}
+
+
+/*40*/
+ .row{
+    height: auto;
+    margin: 5% 0;
+    margin-top: 0;
+} 
+/*34*/
+.cards{
+ height:20%;
+ margin: 0;
+ overflow-x: hidden;
+ overflow-y: scroll;
+ white-space: nowrap;
+}
+
+/* スクロールの幅の設定 */
+.cards::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* スクロールの背景の設定 */
+  .cards::-webkit-scrollbar-track {
+    border-radius: 5px;
+    border: solid 2px #495057;
+  }
+  
+  /* スクロールのつまみ部分の設定 */
+  .cards::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #495057;
+  }
+  
+
+.form-group{
+    margin: 0;
+}
+.cards > .col-sm-2{
+    height: 100%;
+}
+.panel{ 
+    border: solid 1px red;
+    margin-bottom: 10px;
+    height: 90%;
+}
+
+.form-control{
+    height: unset;
+}
+#photo{
+    margin-bottom: 15px;
+}
+.button-gounp{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2% 0;
+    color: #495057;
+}
+.create_card{
+    height: auto !important;
+}
+
+
+.form-group > label{
+    font-size:xx-small;
+    color: #495057;
+}
+.form-control{
+    font-size:xx-small;
+}
+
+.plus_bt{
+    color: #495057;
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+    align-items: center;
+}
+
+@media(max-width:991px){
+    .form-group > label{
+        margin: 1vw;
+        font-size: 3vw;
+    }
+    .form-control{
+        font-size: 3vw;
+    }
+
+    .navbar-nav{
+        z-index: 100000;
+    }
+
+    .navbar-brand{
+        width:unset;
+    }
+
+    .navbar-nav > li{
+        display: block;
+       
+    }
+    .cards{
+        display: none;
+    }
+}

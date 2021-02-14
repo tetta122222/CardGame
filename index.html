@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <title>CardGame</title>
+</head>
+<body>
+    <div class="container-fluid " style="height: 100vh;">
+        <nav class="navbar navbar-expand-lg navbar-light title">
+            <a class="navbar-brand" href="#">タイトル</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+              
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li>aaaaaa</li>
+                <li>aaaaaa</li>
+                <li>aaaaaa</li>
+              </ul>
+            </div>
+          </nav>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4 create_card shadow" style="height: 100%; ">
+
+            </div>
+            <div class="col-md-4 alert-secondary shadow">
+                <form>
+                    <div class="form-group">
+                        <label for="name">名前</label>
+                        <input type="text" class="form-control" id="name" placeholder="名前">
+                    </div>
+                    <div class="form-group">
+                        <label for="evolution">進化</label>
+                        <input type="number" class="form-control" id="evolution" placeholder="進化">
+                        <input type="text" class="form-control" id="evo_name" placeholder="進化前の名前">
+                    </div>
+                    <div class="form-group">
+                        <label for="type">タイプ</label>
+                        <input type="text" class="form-control" id="type" placeholder="タイプ">
+                    </div>
+                    <div class="form-group">
+                        <label for="escape">逃げる</label>
+                        <input type="number" class="form-control" id="escape" placeholder="逃げる">
+                    </div>
+                    <div class="form-group">
+                        <label for="photo">画像サイズ</label>
+                        <input type="text" class="form-control" id="photo" placeholder="サイズ">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row cards ">
+            <div class="col-sm-2 ">
+                <div class="panel panel-default border alert-secondary">
+                    <div class="panel-body text-right">コンテンツ</div>
+                </div>
+              </div>
+            <div class="col-sm-2 ">
+                <div class="panel panel-default border alert-secondary">
+                    <div class="panel-body text-right">コンテンツ</div>
+                </div>
+              </div>
+            <div class="col-sm-2 ">
+              <div class="panel panel-default border alert-secondary">
+                  <div class="panel-body text-right">コンテンツ</div>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="panel panel-default border alert-secondary">
+                  <div class="panel-body text-right">コンテンツ</div>
+              </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="panel panel-default border alert-secondary">
+                    <div class="panel-body text-right">コンテンツ</div>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="panel panel-default border alert-secondary">
+                    <div class="panel-body text-right">コンテンツ</div>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="panel panel-default border alert-secondary">
+                    <div class="panel-body text-right">コンテンツ</div>
+                </div>
+              </div>
+              <div class="col-sm-2 plus_bt">
+                <i class="fas fa-plus-circle"></i>
+              </div>
+          </div>
+           <div class="button-gounp">
+            <button type="submit" class="btn bg-success"><i class="fas fa-save"></i>保存</button>
+            <button type="submit" class="btn bg-primary"><i class="fas fa-copy"></i>印刷</button>
+          </div> 
+    </div>
+</body>
+</html>
