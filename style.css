@@ -12,6 +12,7 @@ margin:1% ;
 }
 
 .navbar-brand{
+    font-size: 3vw;
     margin: 0;
     text-align: center;
     width: 100%;
@@ -87,10 +88,8 @@ margin:1% ;
 
 
 .form-group > label{
-    font-size:xx-small;
     color: #495057;
-}
-.form-control{
+    margin: .5rem 0;
 }
 
 .plus_bt{
@@ -101,7 +100,21 @@ margin:1% ;
     align-items: center;
 }
 
+.btn{
+    font-size: 1.5rem;
+}
+
 @media(max-width:991px){
+    .btn{
+        font-size: 3.5rem;
+    }
+    .navbar-toggler-icon{
+        width: 8vw;
+        height: 5vh;
+    }
+    .create_card{
+        height: 40vh !important;
+    }
     .form-group > label{
         margin: 1vw;
         font-size: 3vw;
@@ -116,7 +129,9 @@ margin:1% ;
 
     .navbar-brand{
         width:unset;
+        font-size: 5vw;
     }
+
 
     .navbar-nav > li{
         display: block;
